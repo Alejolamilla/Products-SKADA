@@ -1,0 +1,61 @@
+body {
+	font-family: 'Courgette', cursive;
+	background: #F7F7E3;
+}
+
+header {
+	background: rgb(240, 230, 120);
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+figure img {
+	height: 100px;
+	margin:0;
+	padding: 0;
+	border:0;
+}
+
+nav{
+	width: 1800px;
+	display:inherit;
+	height:50px;
+	margin:0;
+	margin-top:0px;
+}
+
+nav ul {
+	height: inherit;
+	width: inherit;
+	display: flex;
+	list-style: none;
+	margin: 0;
+	justify-content: center;
+	align-content: center;
+	align-items: flex-end;
+}
+
+nav ul li {
+	display: inherit;
+	justify-content:center;
+	height: 40px;
+	width: 110px;
+	padding: 1px;
+	margin: 5px;
+	border-right: 2px solid black;
+}
+
+#noteid {
+	border-left:2px solid black;
+}
+
+nav ul li a {
+	display: inherit;
+	height: 40px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
